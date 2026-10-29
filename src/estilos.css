@@ -16,7 +16,7 @@ input, select, button { font: inherit; padding: 8px 10px; border-radius: 8px; bo
 button { background: var(--acento); color: #fff; border: 0; cursor: pointer; }
 button.secundario { background: transparent; color: var(--suave); border: 1px solid var(--borde); margin-top: 12px; }
 button.x { background: transparent; color: var(--suave); padding: 0 6px; }
-.fila { display: flex; gap: 8px; } .fila input { flex: 1; }
+.fila { display: flex; gap: 8px; } .fila input { flex: 1; min-width: 0; }
 .gasto { display: grid; gap: 8px; }
 fieldset { border: 1px solid var(--borde); border-radius: 8px; display: flex; flex-wrap: wrap; gap: 12px; }
 .chips { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
